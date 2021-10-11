@@ -1,0 +1,16 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve:backend": "node -r esm ./backend/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "date-fns": "^2.25.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
+}
